@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:opencv="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tom.projectv1.TakeNewPhotoActivity">
+
+//C:\Users\Tom\Documents\0--UNI\Year3\Project\ProjectV1\app\src\main\java\com\example\tom\projectv1\myCameraView.java
+
+    <com.example.tom.projectv1.myCameraView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone"
+        android:id="@+id/show_camera_activity_java_surface_view"
+         />
+
+    <org.opencv.android.JavaCameraView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone"
+        android:id="@+id/show_camera_activity_java_surface_view2"
+        />
+
+
+    <ImageButton
+        android:id="@+id/takePhotoButton"
+        android:layout_width="80dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="13dp"
+        opencv:srcCompat="@android:drawable/ic_menu_camera"
+        android:background="@drawable/circle_button"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tom.projectv1.MenuActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/buttonTakeNewPhotoPage"
+        android:layout_below="@+id/textView"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="32dp"
+        android:text="Welcome "
+        android:textSize="26dp" />
+
+    <TextView
+        android:id="@+id/userNameTVw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_toEndOf="@+id/textView2"
+        android:text="USERNAME"
+        android:textSize="26dp" />
+
+    <Button
+        android:id="@+id/buttonTakeNewPhotoPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/my_button_border2"
+        android:minHeight="60dp"
+        android:minWidth="275dp"
+        android:text="Take Ghost Image"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/buttonGallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/userNameTVw"
+        android:layout_alignStart="@+id/buttonTakeAnotherPhoto"
+        android:background="@drawable/my_button_border2"
+        android:minHeight="60dp"
+        android:minWidth="275dp"
+        android:text="Photo Gallery"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/buttonTakeAnotherPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/my_button_border2"
+        android:minHeight="60dp"
+        android:minWidth="275dp"
+        android:text="Take Photo with Overlay"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/buttonLogOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp"
+        android:minHeight="60dp"
+        android:minWidth="100dp"
+        android:textSize="15dp"
+        android:text="Log Out"
+        android:background="@drawable/my_button_border2"/>
+
+    <TextView
+        android:id="@+id/userNameTVw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonLogOut"
+        android:minHeight="60dp"
+        android:minWidth="100dp" />
+</RelativeLayout>

@@ -11,7 +11,7 @@ This image is saved to the phone using the Users details.
 Over time more images will be taken of the users foot.
 
 When a user goes to take a another photo a ghost image is placed over the camera.
-A ghost image is an outline of the user foot.
+A ghost image is an outline of the users foot.
 So all images can be lined up accurately.
 
 The ghost image is created using the first image taken by the user.
